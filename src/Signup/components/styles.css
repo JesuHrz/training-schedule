@@ -1,0 +1,55 @@
+.signup__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.signup__form {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+}
+
+.signup__label,
+.signup__input {
+  flex-basis: 100%;
+  margin: 4px 0px;
+}
+
+.signup_select {
+  flex-basis: 100%;
+  margin: 4px 0px;
+  height: 35px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  background: transparent;
+  font-family: GTWalsheimRegular;
+  font-size: 15px;
+}
+
+.signup__input{
+  height: 35px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  padding: 2px 5px;
+  font-size: 16px;
+}
+
+.signup__button {
+  flex-basis: 100%;
+  margin-top: 10px;
+}
+
+.form__link {
+  margin-top: 15px;
+}
